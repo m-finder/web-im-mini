@@ -8,9 +8,15 @@ IT行业交流群   295721957
 
 本版本只是简单实现了聊天功能，因为还没有获取授权，完整功能就等获取授权以后吧
 
+
+
+所用插件：
+
 layIM 3.0.4          本项目中已去除layim.js
 
 融云开源Server SDK    server-sdk-php
+
+
 
 体验地址：www.m-finder.com/webim
 
