@@ -12,11 +12,14 @@ layIM 3.0.4          本项目中已去除layim.js
 
 融云开源Server SDK    server-sdk-php
 
+体验地址：www.m-finder.com/webim
 
 体验帐号：
 
 用户名：Luffy   密码：admin888 
+
 用户名：Shanks  密码：admin888 
+
 用户名：Buggy   密码：admin888 
 
 
