@@ -44,7 +44,9 @@ layui.config({
 }).extend({
 
     rmlib: 'rmlib',         //static/js/rmlib.js        对应于融云的http(s)://cdn.ronghub.com/RongIMLib-2.2.5.min.js
+    
     protobuf: 'protobuf',   //static/js/protobuf.js     对应于融云的http(s)://cdn.ronghub.com/protobuf-2.1.5.min.js
+    
     socket: 'socket',       //融云的方法和layim的方法封装
     
 });
