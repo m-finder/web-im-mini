@@ -14,6 +14,7 @@ layIM 3.0.4          本项目中已去除layim.js
 
 
 体验帐号：
+
 用户名：Luffy   密码：admin888 
 用户名：Shanks  密码：admin888 
 用户名：Buggy   密码：admin888 
@@ -22,6 +23,7 @@ layIM 3.0.4          本项目中已去除layim.js
 开始之前，你要了解layui扩展第三方插件的方法，然后在融云注册帐号并创建应用，最后在融云的server开发指南中下载php版sdk。
 
 1. layui绑定扩展
+
 
 layui.config({
 
