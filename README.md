@@ -59,7 +59,7 @@ layui.use(['layim', 'jquery', 'socket'], function (layim, socket) {
         },
         //…… layui基础配置，直接复制官网
     });  
-
+}
 
 3. socket.js
 
