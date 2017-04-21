@@ -24,17 +24,22 @@ layIM 3.0.4          本项目中已去除layim.js
 1. layui绑定扩展
 
 layui.config({
+
     base: 'static/js/'      //第三方扩展路径
+    
 }).extend({
+
     rmlib: 'rmlib',         //static/js/rmlib.js        对应于融云的http(s)://cdn.ronghub.com/RongIMLib-2.2.5.min.js
     protobuf: 'protobuf',   //static/js/protobuf.js     对应于融云的http(s)://cdn.ronghub.com/RongIMLib-2.2.5.min
     socket: 'socket',       //融云的方法和layim的方法封装
+    
 });
 
 
 2. layim,socket初始化
 
 layui.use(['layim', 'jquery', 'socket'], function (layim, socket) {
+
     var $ = layui.jquery;
     var socket = layui.socket;
     var token = $('body').data('token');
