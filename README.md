@@ -10,7 +10,7 @@ IT行业交流群   295721957
 
 
 
-所用插件：
+## 所用插件：
 
 layIM 3.0.4          本项目中已去除layim.js
 
@@ -18,9 +18,9 @@ layIM 3.0.4          本项目中已去除layim.js
 
 
 
-体验地址：www.m-finder.com/webim
+## 体验地址：www.m-finder.com/webim
 
-体验帐号：
+## 体验帐号：
 
 用户名：Luffy   密码：admin888 
 
@@ -31,12 +31,13 @@ layIM 3.0.4          本项目中已去除layim.js
 
 
 
-
+## 须知
 开始之前，你要了解layui扩展第三方插件的方法，然后在融云注册帐号并创建应用，最后在融云的server开发指南中下载php版sdk。
 
-1. layui绑定扩展
+## 相关代码
+* layui绑定扩展
 
-
+```javascript
 layui.config({
 
     base: 'static/js/'      //第三方扩展路径
@@ -50,10 +51,11 @@ layui.config({
     socket: 'socket',       //融云的方法和layim的方法封装
     
 });
+```
 
+* layim,socket初始化
 
-2. layim,socket初始化
-
+```javascript
 layui.use(['layim', 'jquery', 'socket'], function (layim, socket) {
 
     var $ = layui.jquery;
@@ -72,11 +74,10 @@ layui.use(['layim', 'jquery', 'socket'], function (layim, socket) {
             url: 'class/doAction.php?action=get_user_data', data: {}
         },
         //…… layui基础配置，直接复制官网
-    });  
-}
+    });  
+} ```
 
-3. socket.js
-
+* 其他
 如果看不懂，可以参照着融云的web im通讯能力库文档和layim的文档，这里就是两者的结合。
 
 
