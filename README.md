@@ -77,7 +77,7 @@ layui.use(['layim', 'jquery', 'socket'], function (layim, socket) {
     });  
 } ```
 
-* 其他
-如果看不懂，可以参照着融云的web im通讯能力库文档和layim的文档，这里就是两者的结合。
+M-finder
+www.m-finder.com
 
 
