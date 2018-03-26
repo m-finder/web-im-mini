@@ -18,7 +18,7 @@ layIM 3.0.4          本项目中已去除layim.js
 
 
 
-## 体验地址：www.m-finder.com/webim
+## 体验地址：已当机
 
 ## 体验帐号：
 
