@@ -2,10 +2,10 @@
 session_start();
 
 #配置信息，一个都不能少
-define("DB_HOST",'localhost');
+define("DB_HOST",'mysql');
 define("DB_USER",'root');
 define('DB_PWD','root');
-define('DB_NAME','chat');
+define('DB_NAME','im');
 define('DB_PORT','3306');
 define('DB_TYPE','mysql');
 
