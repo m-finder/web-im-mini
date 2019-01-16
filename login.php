@@ -87,6 +87,7 @@
                 },
                 error: function (e, code) {
                     layer.alert('请求异常:' + code, {icon: 2});
+					layer.closeAll('loading');
                     console.log(e)
                 }
             })
